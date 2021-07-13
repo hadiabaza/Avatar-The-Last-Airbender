@@ -2,6 +2,7 @@
     "characters": [
         {
             "id": "1",
+            "favorite": false,
             "name": "Aang",
             "affiliation": "Air Nomads",
             "element": "Air",
@@ -10,6 +11,7 @@
         },
         {
             "id": "2",
+            "favorite": false,
             "name": "Amon",
             "affiliation": "Equalists",
             "element": "Water Tribe",
@@ -18,6 +20,7 @@
         },
         {
             "id": "3",
+            "favorite": false,
             "name": "Appa",
             "affiliation": "Air Nomads",
             "element": "Air",
@@ -26,6 +29,7 @@
         },
         {
             "id": "4",
+            "favorite": false,
             "name": "Arnook",
             "affiliation": "Water Tribe",
             "element": "Water",
@@ -34,6 +38,7 @@
         },
         {
             "id": "5",
+            "favorite": false,
             "name": "Asami Sato",
             "affiliation": "Republic City",
             "element": "None",
@@ -42,6 +47,7 @@
         },
         {
             "id": "6",
+            "favorite": false,
             "name": "Azula",
             "affiliation": "Fire Nation",
             "element": "Fire",
@@ -50,6 +56,7 @@
         },
         {
             "id": "7",
+            "favorite": false,
             "name": "Bolin",
             "affiliation": "Republic City",
             "element": "Earth",
@@ -58,6 +65,7 @@
         },
         {
             "id": "8",
+            "favorite": false,
             "name": "Bumi",
             "affiliation": "Air Nomads",
             "element": "None",
@@ -66,7 +74,8 @@
         },
         {
             "id": "9",
-            "name": "King Bumi",
+            "favorite": false,
+            "name": "Bumi",
             "affiliation": "Earth Kingdom",
             "element": "Earth",
             "show": "Avatar, The Last Airbender",
@@ -74,6 +83,7 @@
         },
         {
             "id": "10",
+            "favorite": false,
             "name": "Cabbage Merchant",
             "affiliation": "Earth Kingdom",
             "element": "None",
@@ -82,6 +92,7 @@
         },
         {
             "id": "11",
+            "favorite": false,
             "name": "Great Sage",
             "affiliation": "Fire Nation",
             "element": "Fire",
@@ -90,6 +101,7 @@
         },
         {
             "id": "12",
+            "favorite": false,
             "name": "Gyatso",
             "affiliation": "Air Nomads",
             "element": "Air",
@@ -98,6 +110,7 @@
         },
         {
             "id": "13",
+            "favorite": false,
             "name": "Hakoda",
             "affiliation": "Water Tribe",
             "element": "Water",
@@ -106,6 +119,7 @@
         },
         {
             "id": "14",
+            "favorite": false,
             "name": "Hama",
             "affiliation": "Water Tribe",
             "element": "Water",
@@ -114,6 +128,7 @@
         },
         {
             "id": "15",
+            "favorite": false,
             "name": "Haru",
             "affiliation": "Earth Kingdom",
             "element": "Earth",
@@ -122,6 +137,7 @@
         },
         {
             "id": "16",
+            "favorite": false,
             "name": "Hiroshi Sato",
             "affiliation": "Republic City",
             "element": "None",
@@ -130,6 +146,7 @@
         },
         {
             "id": "17",
+            "favorite": false,
             "name": "Hong Li",
             "affiliation": "Earth Kingdom",
             "element": "Earth",
@@ -138,6 +155,7 @@
         },
         {
             "id": "18",
+            "favorite": false,
             "name": "Huu",
             "affiliation": "Water Tribe",
             "element": "Water",
@@ -146,6 +164,7 @@
         },
         {
             "id": "19",
+            "favorite": false,
             "name": "Ikki",
             "affiliation": "Air Nomad",
             "element": "Air",
@@ -154,6 +173,7 @@
         },
         {
             "id": "20",
+            "favorite": false,
             "name": "Iroh",
             "affiliation": "Fire Nation",
             "element": "Fire",
@@ -162,6 +182,7 @@
         },
         {
             "id": "21",
+            "favorite": false,
             "name": "Iroh (Korra)",
             "affiliation": "Republic City",
             "element": "Fire",
@@ -170,6 +191,7 @@
         },
         {
             "id": "22",
+            "favorite": false,
             "name": "Izumi",
             "affiliation": "Fire Nation",
             "element": "Fire",
@@ -178,6 +200,7 @@
         },
         {
             "id": "23",
+            "favorite": false,
             "name": "Jet",
             "affiliation": "Earth Kingdom",
             "element": "None",
@@ -186,6 +209,7 @@
         },
         {
             "id": "24",
+            "favorite": false,
             "name": "Jin Wei",
             "affiliation": "Earth Kingdom",
             "element": "Earth",
@@ -194,6 +218,7 @@
         },
         {
             "id": "25",
+            "favorite": false,
             "name": "Jinora",
             "affiliation": "Air Nomads",
             "element": "Air",
@@ -202,6 +227,7 @@
         },
         {
             "id": "26",
+            "favorite": false,
             "name": "Kanna",
             "affiliation": "Water Tribe",
             "element": "Water",
@@ -210,6 +236,7 @@
         },
         {
             "id": "27",
+            "favorite": false,
             "name": "Katara",
             "affiliation": "Water Tribe",
             "element": "Water",
@@ -218,6 +245,7 @@
         },
         {
             "id": "28",
+            "favorite": false,
             "name": "Lin Beifong",
             "affiliation": "Republic City",
             "element": "Earth",
@@ -226,6 +254,7 @@
         },
         {
             "id": "29",
+            "favorite": false,
             "name": "Longshot",
             "affiliation": "Earth Kingdom",
             "element": "None",
@@ -234,6 +263,7 @@
         },
         {
             "id": "30",
+            "favorite": false,
             "name": "Mai",
             "affiliation": "Fire Nation",
             "element": "None",
@@ -242,6 +272,7 @@
         },
         {
             "id": "31",
+            "favorite": false,
             "name": "Mako",
             "affiliation": "Republic City",
             "element": "Fire",
@@ -250,6 +281,7 @@
         },
         {
             "id": "32",
+            "favorite": false,
             "name": "Mechanist",
             "affiliation": "Earth Kingdom",
             "element": "None",
@@ -258,6 +290,7 @@
         },
         {
             "id": "33",
+            "favorite": false,
             "name": "Ming",
             "affiliation": "Fire Nation",
             "element": "Fire",
@@ -266,6 +299,7 @@
         },
         {
             "id": "34",
+            "favorite": false,
             "name": "Momo",
             "affiliation": "Air Nomads",
             "element": "None",
@@ -274,6 +308,7 @@
         },
         {
             "id": "35",
+            "favorite": false,
             "name": "Naga",
             "affiliation": "Water Tribe",
             "element": "None",
@@ -282,6 +317,7 @@
         },
         {
             "id": "36",
+            "favorite": false,
             "name": "Opal",
             "affiliation": "Air Nomads",
             "element": "Air",
@@ -290,6 +326,7 @@
         },
         {
             "id": "37",
+            "favorite": false,
             "name": "Ozai",
             "affiliation": "Fire Nation",
             "element": "Fire",
@@ -298,6 +335,7 @@
         },
         {
             "id": "38",
+            "favorite": false,
             "name": "Pakku",
             "affiliation": "Water Tribe",
             "element": "Water",
@@ -306,6 +344,7 @@
         },
         {
             "id": "39",
+            "favorite": false,
             "name": "Pema",
             "affiliation": "Air Nomads",
             "element": "None",
@@ -314,6 +353,7 @@
         },
         {
             "id": "40",
+            "favorite": false,
             "name": "Roku",
             "affiliation": "Fire Nation",
             "element": "Fire",
@@ -322,6 +362,7 @@
         },
         {
             "id": "41",
+            "favorite": false,
             "name": "Senna",
             "affiliation": "Water Tribe",
             "element": "Water",
@@ -330,6 +371,7 @@
         },
         {
             "id": "42",
+            "favorite": false,
             "name": "Sokka",
             "affiliation": "Water Tribe",
             "element": "None",
@@ -338,6 +380,7 @@
         },
         {
             "id": "43",
+            "favorite": false,
             "name": "Sozin",
             "affiliation": "Fire Nation",
             "element": "Fire",
@@ -346,6 +389,7 @@
         },
         {
             "id": "44",
+            "favorite": false,
             "name": "Suki",
             "affiliation": "Earth Kingdom",
             "element": "None",
@@ -354,6 +398,7 @@
         },
         {
             "id": "45",
+            "favorite": false,
             "name": "Tarrlok",
             "affiliation": "Water Tribe",
             "element": "Water",
@@ -362,6 +407,7 @@
         },
         {
             "id": "46",
+            "favorite": false,
             "name": "Tenzin",
             "affiliation": "Air Nomads",
             "element": "Air",
@@ -370,6 +416,7 @@
         },
         {
             "id": "47",
+            "favorite": false,
             "name": "Teo",
             "affiliation": "Earth Kingdom",
             "element": "None",
@@ -378,6 +425,7 @@
         },
         {
             "id": "48",
+            "favorite": false,
             "name": "Toph",
             "affiliation": "Earth Kingdom",
             "element": "Earth",
@@ -386,6 +434,7 @@
         },
         {
             "id": "49",
+            "favorite": false,
             "name": "Ty Lee",
             "affiliation": "Fire Nation",
             "element": "None",
@@ -394,6 +443,7 @@
         },
         {
             "id": "50",
+            "favorite": false,
             "name": "Yue",
             "affiliation": "Water Tribe",
             "element": "Water",
@@ -402,6 +452,7 @@
         },
         {
             "id": "51",
+            "favorite": false,
             "name": "Zhao",
             "affiliation": "Fire Nation",
             "element": "Fire",
@@ -410,6 +461,7 @@
         },
         {
             "id": "52",
+            "favorite": false,
             "name": "Zuko",
             "affiliation": "Fire Nation",
             "element": "Fire",

@@ -1,10 +1,19 @@
 import React from 'react';
+import CharacterCard from './CharacterCard';
 
-const FavoritesContainer = () => {
+const FavoritesContainer = ({myCharacters, handleClick}) => {
     return (
-        <div>
-            
-        </div>
+            <ul className="character-container">
+                {
+            myCharacters.map(character => (
+            <CharacterCard 
+            key = {character.id}
+            character={character}
+            handleClick={handleClick}
+            />
+            ))
+            }
+            </ul>
     );
 }
 
