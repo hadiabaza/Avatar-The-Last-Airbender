@@ -3,7 +3,8 @@ import React from 'react';
 const NavBar = () => {
     return (
         <div>
-            NavBar
+            <button>Characters</button>
+            <button>Favorites</button>
         </div>
     );
 }

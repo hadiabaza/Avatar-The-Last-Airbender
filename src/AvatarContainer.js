@@ -4,7 +4,7 @@ import CharacterCard from './CharacterCard';
 const AvatarContainer = ({characters}) => {
     return (
         <ul>
-            <ul id="character-container">
+            <ul className="character-container">
             {
             characters.map(character => (
             <CharacterCard 

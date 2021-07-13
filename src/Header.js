@@ -1,7 +1,7 @@
 function Header() {
     return(
         <div> 
-            <h1 id="header" >Example Header for Avatar API</h1>
+            <h1 id="header" >Avatar</h1>
         </div>
  );
 }
