@@ -1,4 +1,7 @@
-function CharacterCard({character, handleClick}) {
+import { useState } from 'react';
+
+function CharacterCard({character, handleClick, isFavorite}) {
+
     return( 
         <div id="character-card">
             <h2>{character.name}</h2>
@@ -6,7 +9,10 @@ function CharacterCard({character, handleClick}) {
             <h3>Affiliation: {character.affiliation}</h3>
             <h3>Element: {character.element}</h3>
             <h3>Show: {character.show}</h3>
-            <button onClick={() => handleClick(character)}>{character.favorite ? "Remove" : "Favorite" }</button>
+            <button 
+            
+            onClick={() =>handleClick(character)}
+            >{isFavorite ? "Remove" : "Favorite" }</button>
         </div>
     )
 }

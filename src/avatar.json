@@ -1,472 +1,472 @@
 {
-    "characters": [
-        {
-            "id": "1",
-            "favorite": false,
-            "name": "Aang",
-            "affiliation": "Air Nomads",
-            "element": "Air",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png"
-        },
-        {
-            "id": "2",
-            "favorite": false,
-            "name": "Amon",
-            "affiliation": "Equalists",
-            "element": "Water Tribe",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/0/00/Amon_and_his_Equalists.png"
-        },
-        {
-            "id": "3",
-            "favorite": false,
-            "name": "Appa",
-            "affiliation": "Air Nomads",
-            "element": "Air",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/6/65/Appa_flying.png"
-        },
-        {
-            "id": "4",
-            "favorite": false,
-            "name": "Arnook",
-            "affiliation": "Water Tribe",
-            "element": "Water",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/0/0c/Chief.png"
-        },
-        {
-            "id": "5",
-            "favorite": false,
-            "name": "Asami Sato",
-            "affiliation": "Republic City",
-            "element": "None",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/b/b6/Asami_Sato.png"
-        },
-        {
-            "id": "6",
-            "favorite": false,
-            "name": "Azula",
-            "affiliation": "Fire Nation",
-            "element": "Fire",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/1/12/Azula.png"
-        },
-        {
-            "id": "7",
-            "favorite": false,
-            "name": "Bolin",
-            "affiliation": "Republic City",
-            "element": "Earth",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/d/d4/Bolin.png"
-        },
-        {
-            "id": "8",
-            "favorite": false,
-            "name": "Bumi",
-            "affiliation": "Air Nomads",
-            "element": "None",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/0/06/Bumi.png"
-        },
-        {
-            "id": "9",
-            "favorite": false,
-            "name": "Bumi",
-            "affiliation": "Earth Kingdom",
-            "element": "Earth",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/e/e8/King_Bumi.png"
-        },
-        {
-            "id": "10",
-            "favorite": false,
-            "name": "Cabbage Merchant",
-            "affiliation": "Earth Kingdom",
-            "element": "None",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/2/2f/Cabbage_merchant.png"
-        },
-        {
-            "id": "11",
-            "favorite": false,
-            "name": "Great Sage",
-            "affiliation": "Fire Nation",
-            "element": "Fire",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/1/15/Great_Sage.png"
-        },
-        {
-            "id": "12",
-            "favorite": false,
-            "name": "Gyatso",
-            "affiliation": "Air Nomads",
-            "element": "Air",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/a/a4/Monk_Gyatso.png"
-        },
-        {
-            "id": "13",
-            "favorite": false,
-            "name": "Hakoda",
-            "affiliation": "Water Tribe",
-            "element": "Water",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/4/4e/Hakoda_smiling.png"
-        },
-        {
-            "id": "14",
-            "favorite": false,
-            "name": "Hama",
-            "affiliation": "Water Tribe",
-            "element": "Water",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/4/4d/Sinister_Hama.png"
-        },
-        {
-            "id": "15",
-            "favorite": false,
-            "name": "Haru",
-            "affiliation": "Earth Kingdom",
-            "element": "Earth",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/d/da/Haru.png"
-        },
-        {
-            "id": "16",
-            "favorite": false,
-            "name": "Hiroshi Sato",
-            "affiliation": "Republic City",
-            "element": "None",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/a/a6/Old_Hiroshi_Sato.png"
-        },
-        {
-            "id": "17",
-            "favorite": false,
-            "name": "Hong Li",
-            "affiliation": "Earth Kingdom",
-            "element": "Earth",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/a/a9/Hong_Li.png"
-        },
-        {
-            "id": "18",
-            "favorite": false,
-            "name": "Huu",
-            "affiliation": "Water Tribe",
-            "element": "Water",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/8/85/Huu.png"
-        },
-        {
-            "id": "19",
-            "favorite": false,
-            "name": "Ikki",
-            "affiliation": "Air Nomad",
-            "element": "Air",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/4/49/Ikki.png"
-        },
-        {
-            "id": "20",
-            "favorite": false,
-            "name": "Iroh",
-            "affiliation": "Fire Nation",
-            "element": "Fire",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/c/c1/Iroh_smiling.png"
-        },
-        {
-            "id": "21",
-            "favorite": false,
-            "name": "Iroh (Korra)",
-            "affiliation": "Republic City",
-            "element": "Fire",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/3/34/Iroh_%28United_Forces_general%29.png"
-        },
-        {
-            "id": "22",
-            "favorite": false,
-            "name": "Izumi",
-            "affiliation": "Fire Nation",
-            "element": "Fire",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/1/10/Izumi.png"
-        },
-        {
-            "id": "23",
-            "favorite": false,
-            "name": "Jet",
-            "affiliation": "Earth Kingdom",
-            "element": "None",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/1/1e/Jet.png"
-        },
-        {
-            "id": "24",
-            "favorite": false,
-            "name": "Jin Wei",
-            "affiliation": "Earth Kingdom",
-            "element": "Earth",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/9/9c/Jin_Wei.png"
-        },
-        {
-            "id": "25",
-            "favorite": false,
-            "name": "Jinora",
-            "affiliation": "Air Nomads",
-            "element": "Air",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/0/01/Jinora.png"
-        },
-        {
-            "id": "26",
-            "favorite": false,
-            "name": "Kanna",
-            "affiliation": "Water Tribe",
-            "element": "Water",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/4/47/Kanna.png"
-        },
-        {
-            "id": "27",
-            "favorite": false,
-            "name": "Katara",
-            "affiliation": "Water Tribe",
-            "element": "Water",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/7/7a/Katara_smiles_at_coronation.png"
-        },
-        {
-            "id": "28",
-            "favorite": false,
-            "name": "Lin Beifong",
-            "affiliation": "Republic City",
-            "element": "Earth",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/8/83/Lin_Beifong.png"
-        },
-        {
-            "id": "29",
-            "favorite": false,
-            "name": "Longshot",
-            "affiliation": "Earth Kingdom",
-            "element": "None",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/e/e7/Longshot.png"
-        },
-        {
-            "id": "30",
-            "favorite": false,
-            "name": "Mai",
-            "affiliation": "Fire Nation",
-            "element": "None",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/4/40/Mai.png"
-        },
-        {
-            "id": "31",
-            "favorite": false,
-            "name": "Mako",
-            "affiliation": "Republic City",
-            "element": "Fire",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/a/a6/Mako.png"
-        },
-        {
-            "id": "32",
-            "favorite": false,
-            "name": "Mechanist",
-            "affiliation": "Earth Kingdom",
-            "element": "None",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/b/b7/Mechanist.png"
-        },
-        {
-            "id": "33",
-            "favorite": false,
-            "name": "Ming",
-            "affiliation": "Fire Nation",
-            "element": "Fire",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/a/a5/Ming.png"
-        },
-        {
-            "id": "34",
-            "favorite": false,
-            "name": "Momo",
-            "affiliation": "Air Nomads",
-            "element": "None",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/8/80/Momo_staring.png"
-        },
-        {
-            "id": "35",
-            "favorite": false,
-            "name": "Naga",
-            "affiliation": "Water Tribe",
-            "element": "None",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/3/35/Naga.png"
-        },
-        {
-            "id": "36",
-            "favorite": false,
-            "name": "Opal",
-            "affiliation": "Air Nomads",
-            "element": "Air",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/3/3c/Opal.png"
-        },
-        {
-            "id": "37",
-            "favorite": false,
-            "name": "Ozai",
-            "affiliation": "Fire Nation",
-            "element": "Fire",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/4/4a/Ozai.png"
-        },
-        {
-            "id": "38",
-            "favorite": false,
-            "name": "Pakku",
-            "affiliation": "Water Tribe",
-            "element": "Water",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/b/bb/Pakku_looking_smug.png"
-        },
-        {
-            "id": "39",
-            "favorite": false,
-            "name": "Pema",
-            "affiliation": "Air Nomads",
-            "element": "None",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/1/1d/Pema.png"
-        },
-        {
-            "id": "40",
-            "favorite": false,
-            "name": "Roku",
-            "affiliation": "Fire Nation",
-            "element": "Fire",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/f/f6/Roku.png"
-        },
-        {
-            "id": "41",
-            "favorite": false,
-            "name": "Senna",
-            "affiliation": "Water Tribe",
-            "element": "Water",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/5/5e/Senna.png"
-        },
-        {
-            "id": "42",
-            "favorite": false,
-            "name": "Sokka",
-            "affiliation": "Water Tribe",
-            "element": "None",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/c/cc/Sokka.png"
-        },
-        {
-            "id": "43",
-            "favorite": false,
-            "name": "Sozin",
-            "affiliation": "Fire Nation",
-            "element": "Fire",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/a/aa/Old_Sozin.png"
-        },
-        {
-            "id": "44",
-            "favorite": false,
-            "name": "Suki",
-            "affiliation": "Earth Kingdom",
-            "element": "None",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/1/14/Suki.png"
-        },
-        {
-            "id": "45",
-            "favorite": false,
-            "name": "Tarrlok",
-            "affiliation": "Water Tribe",
-            "element": "Water",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/d/d1/Tarrlok.png"
-        },
-        {
-            "id": "46",
-            "favorite": false,
-            "name": "Tenzin",
-            "affiliation": "Air Nomads",
-            "element": "Air",
-            "show": "The Legend of Korra",
-            "image": "https://static.wikia.nocookie.net/avatar/images/d/d6/Tenzin.png"
-        },
-        {
-            "id": "47",
-            "favorite": false,
-            "name": "Teo",
-            "affiliation": "Earth Kingdom",
-            "element": "None",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/7/77/Teo.png"
-        },
-        {
-            "id": "48",
-            "favorite": false,
-            "name": "Toph",
-            "affiliation": "Earth Kingdom",
-            "element": "Earth",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/4/46/Toph_Beifong.png"
-        },
-        {
-            "id": "49",
-            "favorite": false,
-            "name": "Ty Lee",
-            "affiliation": "Fire Nation",
-            "element": "None",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/6/6d/Ty_Lee.png"
-        },
-        {
-            "id": "50",
-            "favorite": false,
-            "name": "Yue",
-            "affiliation": "Water Tribe",
-            "element": "Water",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/9/9d/Kind_Yue.png"
-        },
-        {
-            "id": "51",
-            "favorite": false,
-            "name": "Zhao",
-            "affiliation": "Fire Nation",
-            "element": "Fire",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/e/e1/Commander_Zhao.png"
-        },
-        {
-            "id": "52",
-            "favorite": false,
-            "name": "Zuko",
-            "affiliation": "Fire Nation",
-            "element": "Fire",
-            "show": "Avatar, The Last Airbender",
-            "image": "https://static.wikia.nocookie.net/avatar/images/4/4b/Zuko.png"
-        }
-    ]
+  "characters": [
+    {
+      "id": 1,
+      "favorite": true,
+      "name": "Aang",
+      "affiliation": "Air Nomads",
+      "element": "Air",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png"
+    },
+    {
+      "id": 2,
+      "favorite": false,
+      "name": "Amon",
+      "affiliation": "Equalists",
+      "element": "Water Tribe",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/0/00/Amon_and_his_Equalists.png"
+    },
+    {
+      "id": 3,
+      "favorite": false,
+      "name": "Appa",
+      "affiliation": "Air Nomads",
+      "element": "Air",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/6/65/Appa_flying.png"
+    },
+    {
+      "id": 4,
+      "favorite": false,
+      "name": "Arnook",
+      "affiliation": "Water Tribe",
+      "element": "Water",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/0/0c/Chief.png"
+    },
+    {
+      "id": 5,
+      "favorite": false,
+      "name": "Asami Sato",
+      "affiliation": "Republic City",
+      "element": "None",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/b/b6/Asami_Sato.png"
+    },
+    {
+      "id": 6,
+      "favorite": false,
+      "name": "Azula",
+      "affiliation": "Fire Nation",
+      "element": "Fire",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/1/12/Azula.png"
+    },
+    {
+      "id": 7,
+      "favorite": false,
+      "name": "Bolin",
+      "affiliation": "Republic City",
+      "element": "Earth",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/d/d4/Bolin.png"
+    },
+    {
+      "id": 8,
+      "favorite": false,
+      "name": "Bumi",
+      "affiliation": "Air Nomads",
+      "element": "None",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/0/06/Bumi.png"
+    },
+    {
+      "id": 9,
+      "favorite": false,
+      "name": "Bumi",
+      "affiliation": "Earth Kingdom",
+      "element": "Earth",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/e/e8/King_Bumi.png"
+    },
+    {
+      "id": 10,
+      "favorite": false,
+      "name": "Cabbage Merchant",
+      "affiliation": "Earth Kingdom",
+      "element": "None",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/2/2f/Cabbage_merchant.png"
+    },
+    {
+      "id": 11,
+      "favorite": false,
+      "name": "Great Sage",
+      "affiliation": "Fire Nation",
+      "element": "Fire",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/1/15/Great_Sage.png"
+    },
+    {
+      "id": 12,
+      "favorite": false,
+      "name": "Gyatso",
+      "affiliation": "Air Nomads",
+      "element": "Air",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/a/a4/Monk_Gyatso.png"
+    },
+    {
+      "id": 13,
+      "favorite": false,
+      "name": "Hakoda",
+      "affiliation": "Water Tribe",
+      "element": "Water",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/4e/Hakoda_smiling.png"
+    },
+    {
+      "id": 14,
+      "favorite": false,
+      "name": "Hama",
+      "affiliation": "Water Tribe",
+      "element": "Water",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/4d/Sinister_Hama.png"
+    },
+    {
+      "id": 15,
+      "favorite": false,
+      "name": "Haru",
+      "affiliation": "Earth Kingdom",
+      "element": "Earth",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/d/da/Haru.png"
+    },
+    {
+      "id": 16,
+      "favorite": false,
+      "name": "Hiroshi Sato",
+      "affiliation": "Republic City",
+      "element": "None",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/a/a6/Old_Hiroshi_Sato.png"
+    },
+    {
+      "id": 17,
+      "favorite": false,
+      "name": "Hong Li",
+      "affiliation": "Earth Kingdom",
+      "element": "Earth",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/a/a9/Hong_Li.png"
+    },
+    {
+      "id": 18,
+      "favorite": false,
+      "name": "Huu",
+      "affiliation": "Water Tribe",
+      "element": "Water",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/8/85/Huu.png"
+    },
+    {
+      "id": 19,
+      "favorite": false,
+      "name": "Ikki",
+      "affiliation": "Air Nomad",
+      "element": "Air",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/49/Ikki.png"
+    },
+    {
+      "id": 20,
+      "favorite": false,
+      "name": "Iroh",
+      "affiliation": "Fire Nation",
+      "element": "Fire",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/c/c1/Iroh_smiling.png"
+    },
+    {
+      "id": 21,
+      "favorite": false,
+      "name": "Iroh (Korra)",
+      "affiliation": "Republic City",
+      "element": "Fire",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/3/34/Iroh_%28United_Forces_general%29.png"
+    },
+    {
+      "id": 22,
+      "favorite": false,
+      "name": "Izumi",
+      "affiliation": "Fire Nation",
+      "element": "Fire",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/1/10/Izumi.png"
+    },
+    {
+      "id": 23,
+      "favorite": false,
+      "name": "Jet",
+      "affiliation": "Earth Kingdom",
+      "element": "None",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/1/1e/Jet.png"
+    },
+    {
+      "id": 24,
+      "favorite": false,
+      "name": "Jin Wei",
+      "affiliation": "Earth Kingdom",
+      "element": "Earth",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/9/9c/Jin_Wei.png"
+    },
+    {
+      "id": 25,
+      "favorite": false,
+      "name": "Jinora",
+      "affiliation": "Air Nomads",
+      "element": "Air",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/0/01/Jinora.png"
+    },
+    {
+      "id": 26,
+      "favorite": false,
+      "name": "Kanna",
+      "affiliation": "Water Tribe",
+      "element": "Water",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/47/Kanna.png"
+    },
+    {
+      "id": 27,
+      "favorite": false,
+      "name": "Katara",
+      "affiliation": "Water Tribe",
+      "element": "Water",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/7/7a/Katara_smiles_at_coronation.png"
+    },
+    {
+      "id": 28,
+      "favorite": false,
+      "name": "Lin Beifong",
+      "affiliation": "Republic City",
+      "element": "Earth",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/8/83/Lin_Beifong.png"
+    },
+    {
+      "id": 29,
+      "favorite": false,
+      "name": "Longshot",
+      "affiliation": "Earth Kingdom",
+      "element": "None",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/e/e7/Longshot.png"
+    },
+    {
+      "id": 30,
+      "favorite": false,
+      "name": "Mai",
+      "affiliation": "Fire Nation",
+      "element": "None",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/40/Mai.png"
+    },
+    {
+      "id": 31,
+      "favorite": false,
+      "name": "Mako",
+      "affiliation": "Republic City",
+      "element": "Fire",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/a/a6/Mako.png"
+    },
+    {
+      "id": 32,
+      "favorite": false,
+      "name": "Mechanist",
+      "affiliation": "Earth Kingdom",
+      "element": "None",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/b/b7/Mechanist.png"
+    },
+    {
+      "id": 33,
+      "favorite": false,
+      "name": "Ming",
+      "affiliation": "Fire Nation",
+      "element": "Fire",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/a/a5/Ming.png"
+    },
+    {
+      "id": 34,
+      "favorite": false,
+      "name": "Momo",
+      "affiliation": "Air Nomads",
+      "element": "None",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/8/80/Momo_staring.png"
+    },
+    {
+      "id": 35,
+      "favorite": false,
+      "name": "Naga",
+      "affiliation": "Water Tribe",
+      "element": "None",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/3/35/Naga.png"
+    },
+    {
+      "id": 36,
+      "favorite": false,
+      "name": "Opal",
+      "affiliation": "Air Nomads",
+      "element": "Air",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/3/3c/Opal.png"
+    },
+    {
+      "id": 37,
+      "favorite": false,
+      "name": "Ozai",
+      "affiliation": "Fire Nation",
+      "element": "Fire",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/4a/Ozai.png"
+    },
+    {
+      "id": 38,
+      "favorite": false,
+      "name": "Pakku",
+      "affiliation": "Water Tribe",
+      "element": "Water",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/b/bb/Pakku_looking_smug.png"
+    },
+    {
+      "id": 39,
+      "favorite": false,
+      "name": "Pema",
+      "affiliation": "Air Nomads",
+      "element": "None",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/1/1d/Pema.png"
+    },
+    {
+      "id": 40,
+      "favorite": false,
+      "name": "Roku",
+      "affiliation": "Fire Nation",
+      "element": "Fire",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/f/f6/Roku.png"
+    },
+    {
+      "id": 41,
+      "favorite": false,
+      "name": "Senna",
+      "affiliation": "Water Tribe",
+      "element": "Water",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/5/5e/Senna.png"
+    },
+    {
+      "id": 42,
+      "favorite": false,
+      "name": "Sokka",
+      "affiliation": "Water Tribe",
+      "element": "None",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/c/cc/Sokka.png"
+    },
+    {
+      "id": 43,
+      "favorite": false,
+      "name": "Sozin",
+      "affiliation": "Fire Nation",
+      "element": "Fire",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/a/aa/Old_Sozin.png"
+    },
+    {
+      "id": 44,
+      "favorite": false,
+      "name": "Suki",
+      "affiliation": "Earth Kingdom",
+      "element": "None",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/1/14/Suki.png"
+    },
+    {
+      "id": 45,
+      "favorite": false,
+      "name": "Tarrlok",
+      "affiliation": "Water Tribe",
+      "element": "Water",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/d/d1/Tarrlok.png"
+    },
+    {
+      "id": 46,
+      "favorite": false,
+      "name": "Tenzin",
+      "affiliation": "Air Nomads",
+      "element": "Air",
+      "show": "The Legend of Korra",
+      "image": "https://static.wikia.nocookie.net/avatar/images/d/d6/Tenzin.png"
+    },
+    {
+      "id": 47,
+      "favorite": false,
+      "name": "Teo",
+      "affiliation": "Earth Kingdom",
+      "element": "None",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/7/77/Teo.png"
+    },
+    {
+      "id": 48,
+      "favorite": false,
+      "name": "Toph",
+      "affiliation": "Earth Kingdom",
+      "element": "Earth",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/46/Toph_Beifong.png"
+    },
+    {
+      "id": 49,
+      "favorite": false,
+      "name": "Ty Lee",
+      "affiliation": "Fire Nation",
+      "element": "None",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/6/6d/Ty_Lee.png"
+    },
+    {
+      "id": 50,
+      "favorite": false,
+      "name": "Yue",
+      "affiliation": "Water Tribe",
+      "element": "Water",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/9/9d/Kind_Yue.png"
+    },
+    {
+      "id": 51,
+      "favorite": false,
+      "name": "Zhao",
+      "affiliation": "Fire Nation",
+      "element": "Fire",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/e/e1/Commander_Zhao.png"
+    },
+    {
+      "id": 52,
+      "favorite": false,
+      "name": "Zuko",
+      "affiliation": "Fire Nation",
+      "element": "Fire",
+      "show": "Avatar, The Last Airbender",
+      "image": "https://static.wikia.nocookie.net/avatar/images/4/4b/Zuko.png"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import CharacterCard from './CharacterCard';
 
-const FavoritesContainer = ({myCharacters, handleClick}) => {
+const FavoritesContainer = ({myCharacters, handleClick, isFavorite}) => {
     return (
             <ul className="character-container">
                 {
@@ -10,6 +10,7 @@ const FavoritesContainer = ({myCharacters, handleClick}) => {
             key = {character.id}
             character={character}
             handleClick={handleClick}
+            isFavorite={isFavorite}
             />
             ))
             }
