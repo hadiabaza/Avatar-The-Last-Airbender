@@ -16,3 +16,4 @@ Add character cards to favorites page, and remove from favorites page, and a cle
 Have 3 filters, nations, bending type, which show they were in
 
 Bonus: add yourself as a character using a submit form# react-project
+# react-project
