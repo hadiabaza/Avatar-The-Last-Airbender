@@ -9,22 +9,16 @@ const MainContainer = () => {
     const [characters, setCharacters] = useState([])
     const [myCharacters, setMyCharacters] = useState([])
 
-    const [isFavorite, setFavorite] = useState(false)
-
-    function toggleFavorite(character) {
-
-        setFavorite(!isFavorite)
-
-        if(!isFavorite === true) {
+function addFavorite(character) {
         if(!myCharacters.includes(character)) {
             const updateMyFavorites = [...myCharacters, character]
             setMyCharacters(updateMyFavorites)
         }
-    } else if(!isFavorite === false) {
+    }
 
-        const updateMyFavorites = [...myCharacters].filter(myCharacter => myCharacter.id !== character.id)
+function removeFavorite(character) {
+    const updateMyFavorites = [...myCharacters].filter(myCharacter => myCharacter.id !== character.id)
         setMyCharacters(updateMyFavorites)
-}
     }
 
     useEffect(() => {
@@ -40,13 +34,11 @@ const MainContainer = () => {
             />
             <AvatarContainer 
             characters={characters}
-            handleClick={toggleFavorite}
-            isFavorite={isFavorite}
+            handleClick={addFavorite}
             />
             <FavoritesContainer 
             myCharacters={myCharacters}
-            handleClick={toggleFavorite}
-            isFavorite={isFavorite}
+            handleClick={removeFavorite}
             />
         </div>
     );
