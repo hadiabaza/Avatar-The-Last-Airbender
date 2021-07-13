@@ -9,6 +9,10 @@ const MainContainer = () => {
     const [characters, setCharacters] = useState([])
     const [myCharacters, setMyCharacters] = useState([])
 
+    const [seeFavorites, setSeeFavorites] = useState(false)
+
+    
+
 function addFavorite(character) {
         if(!myCharacters.includes(character)) {
             const updateMyFavorites = [...myCharacters, character]
@@ -19,6 +23,7 @@ function addFavorite(character) {
 function removeFavorite(character) {
     const updateMyFavorites = [...myCharacters].filter(myCharacter => myCharacter.id !== character.id)
         setMyCharacters(updateMyFavorites)
+        
     }
 
     useEffect(() => {
@@ -26,22 +31,33 @@ function removeFavorite(character) {
         .then(res => res.json())
         .then(data => setCharacters(data))
     }, [])
-    
+
+    if(seeFavorites === true) {
     return (
         <div id="main-container">
-            <NavBar 
-            
-            />
-            <AvatarContainer 
-            characters={characters}
-            handleClick={addFavorite}
+            <NavBar
+            handleClick={setSeeFavorites}
             />
             <FavoritesContainer 
             myCharacters={myCharacters}
             handleClick={removeFavorite}
             />
+
         </div>
-    );
+    )
+    } else if(seeFavorites === false) {
+        return (
+            <div id="main-container">
+                <NavBar
+                handleClick={setSeeFavorites}
+                />
+                <AvatarContainer 
+                characters={characters}
+                handleClick={addFavorite}
+                />
+            </div>
+        );
+    }
 }
 
 

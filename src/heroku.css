@@ -12,7 +12,7 @@ body {
     background-color: lightyellow;
   }
 
-  #character-card {
+  #big-card {
     text-align:center;
      display:inline-block;
      border: black solid 2px;
@@ -21,18 +21,35 @@ body {
      width: 300px;
      height:auto;
      background-color: rgb(221, 247, 255);
+     margin-top: 30px;
   }
 
-  #character-card img {
+  #small-card {
+    text-align:center;
+     display:inline-block;
+     border: black solid 2px;
+     padding: 20px;
+     margin:10px;
+     width: 225px;
+     height:auto;
+     background-color: rgb(221, 247, 255);
+     margin-top: 30px;
+  }
+
+  #button-card img {
     height:100px;
   }
 
-  #character-card h3 {
+  #button-card h3 {
     font-size: 15px;
   }
 
   .character-container {
-    padding-top: 50px;
+    padding-top: 20px;
+  }
+
+  #button-card {
+    display: inline-table;
   }
 
 
@@ -44,7 +61,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 200px;
+    font-size: 100px;
     padding: 0px;
     height: 250px;
     width: 100vw;
@@ -83,6 +100,12 @@ body {
     border-top: 1px solid lightgray;
     padding-top: 10px;
   }
+
+  #Nav-Bar button {
+    width: 150px;
+    height: 60px;
+  }
+
   nav {
     display: flex;
     justify-content: space-around;
