@@ -11,6 +11,8 @@ const MainContainer = () => {
 
     const [seeFavorites, setSeeFavorites] = useState(false)
 
+    const [filterType, setFilterType] = useState("all")
+
     
 
 function addFavorite(character) {
@@ -46,17 +48,80 @@ function removeFavorite(character) {
         </div>
     )
     } else if(seeFavorites === false) {
+        if(filterType === "affiliation") {
         return (
             <div id="main-container">
                 <NavBar
                 handleClick={setSeeFavorites}
+                setFilter={setFilterType}
                 />
+                <br></br>
+                <span className="filter-btns">
+                    <button>Air Nomad</button>
+                    <button>Water Tribe</button>
+                    <button>Fire Nation</button>
+                    <button>Earth Kingdom</button>
+                    <button>Republic City</button>
+                </span>
                 <AvatarContainer 
                 characters={characters}
                 handleClick={addFavorite}
                 />
             </div>
         );
+        } else if(filterType === "all"){
+            return (
+                <div id="main-container">
+                    <NavBar
+                    handleClick={setSeeFavorites}
+                    setFilter={setFilterType}
+                    />
+                    <AvatarContainer 
+                    characters={characters}
+                    handleClick={addFavorite}
+                    />
+                </div>
+            );
+        } else if(filterType === "element") {
+            return (
+                <div id="main-container">
+                    <NavBar
+                    handleClick={setSeeFavorites}
+                    setFilter={setFilterType}
+                    />
+                    <br></br>
+                    <span className="filter-btns">
+                        <button>Air</button>
+                        <button>Water</button>
+                        <button>Fire</button>
+                        <button>Earth</button>
+                        <button>None</button>
+                    </span>
+                    <AvatarContainer 
+                    characters={characters}
+                    handleClick={addFavorite}
+                    />
+                </div>
+            );
+        } else if(filterType === "show") {
+            return (
+                <div id="main-container">
+                    <NavBar
+                    handleClick={setSeeFavorites}
+                    setFilter={setFilterType}
+                    />
+                    <br></br>
+                    <span className="filter-btns">
+                        <button>Avatar, The Last Airbender</button>
+                        <button>The Legend of Korra</button>
+                    </span>
+                    <AvatarContainer 
+                    characters={characters}
+                    handleClick={addFavorite}
+                    />
+                </div>
+            );
+        }
     }
 }
 

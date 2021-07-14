@@ -106,6 +106,59 @@ body {
     height: 60px;
   }
 
+.dropdown {
+  position:relative;
+  display:inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.inner-content {
+  display:none;
+  position: absolute;
+}
+
+.inner-content a {
+  display: block;
+}
+
+#affil:hover .inner-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  background-color: white;
+  border: black solid 1px;
+  width:137.5px;
+}
+
+.filter-btns button{
+  width:auto;
+  height:30px;
+  min-width:100px;
+  margin:2.5px;
+}
+
+.inner-a {
+  display: block;
+  background-color: white;
+  border: black solid 1px;
+  width:137.5px;
+}
+
   nav {
     display: flex;
     justify-content: space-around;
