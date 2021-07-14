@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Amon",
       "affiliation": "Equalists",
-      "element": "Water Tribe",
+      "element": "Water",
       "show": "The Legend of Korra",
       "image": "https://static.wikia.nocookie.net/avatar/images/0/00/Amon_and_his_Equalists.png"
     },
@@ -202,19 +202,19 @@
     },
     {
       "id": 26,
-      "name": "Kanna",
-      "affiliation": "Water Tribe",
-      "element": "Water",
-      "show": "Avatar, The Last Airbender",
-      "image": "https://static.wikia.nocookie.net/avatar/images/4/47/Kanna.png"
-    },
-    {
-      "id": 27,
       "name": "Katara",
       "affiliation": "Water Tribe",
       "element": "Water",
       "show": "Avatar, The Last Airbender",
       "image": "https://static.wikia.nocookie.net/avatar/images/7/7a/Katara_smiles_at_coronation.png"
+    },
+    {
+        "id": 27,
+        "name": "Korra",
+        "affiliation": "Water Tribe",
+        "element": "Water",
+        "show": "The Legend of Korra",
+        "image": "https://static.wikia.nocookie.net/avatar/images/3/31/Korra_smiling.png"
     },
     {
       "id": 28,

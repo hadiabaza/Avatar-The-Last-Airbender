@@ -13,6 +13,8 @@ const MainContainer = () => {
 
     const [filterType, setFilterType] = useState("all")
 
+    const [filter, setFilter] = useState([])
+
     
 
 function addFavorite(character) {
@@ -33,6 +35,22 @@ function removeFavorite(character) {
         .then(res => res.json())
         .then(data => setCharacters(data))
     }, [])
+
+    function nations(nation) {
+        const filteredList = characters.filter(character => character.affiliation === nation)
+        setFilter(filteredList)
+    }
+
+    function elements(element) {
+        const filteredList = characters.filter(character => character.element === element)
+        setFilter(filteredList)
+    }
+
+    function shows(show) {
+        const filteredList = characters.filter(character => character.show === show)
+        setFilter(filteredList)
+    }
+
 
     if(seeFavorites === true) {
     return (
@@ -57,14 +75,15 @@ function removeFavorite(character) {
                 />
                 <br></br>
                 <span className="filter-btns">
-                    <button>Air Nomad</button>
-                    <button>Water Tribe</button>
-                    <button>Fire Nation</button>
-                    <button>Earth Kingdom</button>
-                    <button>Republic City</button>
+                    <button onClick={() => nations("Air Nomads")} >Air Nomads</button>
+                    <button onClick={() => nations("Water Tribe")} >Water Tribe</button>
+                    <button onClick={() => nations("Fire Nation")} >Fire Nation</button>
+                    <button onClick={() => nations("Earth Kingdom")} >Earth Kingdom</button>
+                    <button onClick={() => nations("Republic City")} >Republic City</button>
                 </span>
+
                 <AvatarContainer 
-                characters={characters}
+                characters={filter.length === 0 ? characters : filter}
                 handleClick={addFavorite}
                 />
             </div>
@@ -91,14 +110,14 @@ function removeFavorite(character) {
                     />
                     <br></br>
                     <span className="filter-btns">
-                        <button>Air</button>
-                        <button>Water</button>
-                        <button>Fire</button>
-                        <button>Earth</button>
-                        <button>None</button>
+                        <button onClick={() => elements("Air")}>Air</button>
+                        <button onClick={() => elements("Water")} >Water</button>
+                        <button onClick={() => elements("Fire")} >Fire</button>
+                        <button onClick={() => elements("Earth")} >Earth</button>
+                        <button onClick={() => elements("None")} >None</button>
                     </span>
                     <AvatarContainer 
-                    characters={characters}
+                    characters={filter.length === 0 ? characters : filter}
                     handleClick={addFavorite}
                     />
                 </div>
@@ -112,11 +131,11 @@ function removeFavorite(character) {
                     />
                     <br></br>
                     <span className="filter-btns">
-                        <button>Avatar, The Last Airbender</button>
-                        <button>The Legend of Korra</button>
+                        <button onClick={() => shows("Avatar, The Last Airbender")} >Avatar, The Last Airbender</button>
+                        <button onClick={() => shows("The Legend of Korra")} >The Legend of Korra</button>
                     </span>
                     <AvatarContainer 
-                    characters={characters}
+                    characters={filter.length === 0 ? characters : filter}
                     handleClick={addFavorite}
                     />
                 </div>
