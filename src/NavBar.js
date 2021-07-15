@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NavBar = ({handleClick, setFilter}) => {
+const NavBar = ({handleClick, setFilter, resetFilter}) => {
     return (
         <div id="Nav-Bar">
             <div className="dropdown">
@@ -9,7 +9,10 @@ const NavBar = ({handleClick, setFilter}) => {
                     <a onClick={() => setFilter("affiliation")} href="#">Affiliation</a>
                     <a onClick={() => setFilter("element")} href="#">Element</a>
                     <a onClick={() => setFilter("show")} href="#">Show</a>
-                    <a onClick={() => setFilter("all")} href="#">All</a>
+                    <a onClick={() => { 
+                        setFilter("all");
+                        resetFilter();
+                }} href="#">All</a>
                 </div>
             </div>
             <button
