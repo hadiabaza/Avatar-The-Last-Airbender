@@ -3,6 +3,7 @@ import AvatarContainer from './AvatarContainer';
 import FavoritesContainer from './FavoritesContainer';
 
 import { useState, useEffect } from 'react';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 const MainContainer = () => {
 
@@ -133,7 +134,10 @@ function removeFavorite(character) {
                             <button onClick={() => favElements("None")} >None</button>
                         </span>
                         <FavoritesContainer 
-                        myCharacters={favoriteFilter.length === 0 ? myCharacters : favoriteFilter}
+                        myCharacters={
+                            favoriteFilter.length === 0 ? myCharacters : favoriteFilter
+                            
+                        }
                         handleClick={removeFavorite}
                         />
                     </div>
@@ -161,12 +165,14 @@ function removeFavorite(character) {
     } else if(seeFavorites === false) {
         if(filterType === "affiliation") {
         return (
+             
             <div id="main-container">
                 <NavBar
                 handleClick={setSeeFavorites}
                 setFilter={setFilterType}
                 resetFilter={reset}
                 />
+                
                 <br></br>
                 <span className="filter-btns">
                     <button onClick={() => nations("Air Nomads")} >Air Nomads</button>
@@ -175,15 +181,17 @@ function removeFavorite(character) {
                     <button onClick={() => nations("Earth Kingdom")} >Earth Kingdom</button>
                     <button onClick={() => nations("Republic City")} >Republic City</button>
                 </span>
-
+                 
                 <AvatarContainer 
                 characters={filter.length === 0 ? characters : filter}
                 handleClick={addFavorite}
-                />
+                /> 
             </div>
+            
         );
         } else if(filterType === "all"){
             return (
+                
                 <div id="main-container">
                     <NavBar
                     handleClick={setSeeFavorites}
@@ -195,9 +203,11 @@ function removeFavorite(character) {
                     handleClick={addFavorite}
                     />
                 </div>
+                
             );
         } else if(filterType === "element") {
             return (
+                
                 <div id="main-container">
                     <NavBar
                     handleClick={setSeeFavorites}
@@ -217,9 +227,11 @@ function removeFavorite(character) {
                     handleClick={addFavorite}
                     />
                 </div>
+                
             );
         } else if(filterType === "show") {
             return (
+                
                 <div id="main-container">
                     <NavBar
                     handleClick={setSeeFavorites}
@@ -236,10 +248,11 @@ function removeFavorite(character) {
                     handleClick={addFavorite}
                     />
                 </div>
+                
             );
         }
+       
     }
 }
-
 
 export default MainContainer;

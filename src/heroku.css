@@ -1,5 +1,6 @@
 body {
     font-family: 'Shadows Into Light Two', cursive;
+    background-color: lightyellow;
   }
   h1 {
     font-family: 'Amatic SC', cursive;
@@ -179,10 +180,7 @@ body {
     color: black;
     padding: 5px;
   }
-  a:hover {
-    background: #455947;
-    color: white;
-  }
+
   h6 {
     margin: 0;
     font-size: 0.75em;
