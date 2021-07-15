@@ -18,11 +18,17 @@ const NavBar = ({handleClick, setFilter, resetFilter}) => {
             </div>
             
             <button
-            onClick={() => handleClick(false)}
+            onClick={() => {
+            handleClick(false);
+            resetFilter();
+            }}
             >Characters</button>
             
             <button
-            onClick={() => handleClick(true)}
+            onClick={() => {
+            handleClick(true);
+            resetFilter();
+            }}
             >Favorites</button>
             
         </div>
