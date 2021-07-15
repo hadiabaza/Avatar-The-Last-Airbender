@@ -13,16 +13,16 @@ function App() {
       <Header />
       <br></br>
       <span id="nav-2">
-      <Link to="/about">
+      <Link to="/">
         <button className="route-link">About</button>
       </Link>
-      <Link to="/">
+      <Link to="/home">
         <button className="route-link">Home</button>
       </Link>
       </span>
       <Switch>
-      <Route exact path = "/about" component={About} />
-      <Route exact path="/" component={MainContainer} />
+      <Route exact path = "/" component={About} />
+      <Route exact path="/home" component={MainContainer} />
       </Switch >
     </div>
     </Router>
