@@ -126,7 +126,7 @@ footer {
   position: absolute;
 }
 
-.dropdown-content a:hover {
+.dropdown-content div:hover {
   background-color: lightgrey;
   color: black;
 }
@@ -148,8 +148,9 @@ footer {
   display: block;
 }
 
-.dropdown-content a {
+.dropdown-content > div {
   display: block;
+  cursor: pointer;
   background-color: white;
   border: black solid 1px;
   width: 137.5px;
