@@ -1,7 +1,7 @@
 import NavBar from "./NavBar";
 import AvatarContainer from "./AvatarContainer";
 import FavoritesContainer from "./FavoritesContainer";
-
+import { fetchCharacters } from "./mock-server.js";
 import { useState, useEffect } from "react";
 
 const MainContainer = () => {
@@ -30,9 +30,7 @@ const MainContainer = () => {
   }
 
   useEffect(() => {
-    fetch("http://localhost:3001/characters")
-      .then((res) => res.json())
-      .then((data) => setCharacters(data));
+    fetchCharacters().then((characters) => setCharacters(characters));
   }, []);
 
   function favNations(nation) {
